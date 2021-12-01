@@ -2,7 +2,7 @@ document.getElementById("countdown-display").innerHTML = renderCountdown()
 
 function renderCountdown(){
     const christmas = 25
-    let days = christmas - parseInt((new Date()).toString().split(" ")[2])
+    let days = christmas - parseInt((new Date()).toString().split(" ")[2]) + " days"
     return days
 }
 
